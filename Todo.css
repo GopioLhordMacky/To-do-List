@@ -141,7 +141,7 @@ ul li.checked
     padding: 5px 10px;
     background: rgb(131, 131, 41);
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     position: absolute;
     top: 10px;

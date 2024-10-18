@@ -136,7 +136,8 @@ ul li.checked
     top: 160px;
 }
 
-.edit-btn {
+.edit-btn 
+{
     margin-left: 10px;
     padding: 5px 10px;
     background: rgb(131, 131, 41);

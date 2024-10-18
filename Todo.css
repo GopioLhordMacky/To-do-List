@@ -1,0 +1,157 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(150deg, rgb(177, 177, 129), rgb(116, 69, 69));
+    padding: 50px;
+    border: 20px;
+}
+
+.todo-app
+{
+    width: auto;
+    max-width: 470px;
+    background: beige;
+    margin:100px auto 100px;
+    padding: 30px 20px 60px 20px;
+    border-radius: 10px;
+}
+
+.todo-app h2
+{
+    color: rgb(139, 135, 135);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(193, 206, 173);
+    border-radius:  25px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+    width: auto;
+}
+
+button 
+{
+    border:none;
+    outline: none;
+    padding: 13px 50px;
+    color: rgb(238, 235, 231);
+    background: rgb(131, 131, 41);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul li 
+{
+    list-style:none;
+    font-size: 17px;
+    padding: 5px 3px 10px 50px;
+    user-select:contain;
+    cursor:pointer;
+    position: relative;
+    width: 400px;
+    height: auto;
+}
+
+ul li img 
+{
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 10px;
+    top: 5px;
+    left: 10px;
+}
+
+ul li.checked 
+{
+    color: rgb(139, 135, 135);
+    text-decoration: line-through;
+}
+
+.removebutton 
+{
+    position: absolute;
+    left: 340px;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: brown;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+.removebutton:hover 
+{
+    background: rgb(217, 217, 173);
+}
+
+.timestamp
+{
+    margin-left: 0px;
+    text-align: left;
+    position:relative;
+    display: block;
+    width: 300px;
+    font-size: small;
+    color: grey;
+
+}
+
+#cutesy
+{
+    width: auto;
+    height: 80px;
+    position: absolute;
+    left: 550px;
+    top: 160px;
+}
+
+.edit-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background: rgb(131, 131, 41);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+}
+
+.edit-btn:hover 
+{
+    background: rgb(217, 217, 173);
+}
+
+
+
